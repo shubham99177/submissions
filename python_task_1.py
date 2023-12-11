@@ -31,8 +31,7 @@ def get_type_count(file_path):
 
     return dict
 
-# Example usage:
-# Replace 'your_dataset_file_path.csv' with the actual path to your dataset file
+
 file_path = 'dataset-1.csv'
 result = get_type_count(file_path)
 print(result)
@@ -54,9 +53,6 @@ def get_bus_indexes(file_path):
     sorted_bus_indexes = sorted(bus_indexes)
 
     return sorted_bus_indexes
-
-# Example usage:
-# Replace 'your_dataset_file_path.csv' with the actual path to your dataset file
 file_path = 'dataset-1.csv'
 result = get_bus_indexes(file_path)
 print(result)
@@ -76,8 +72,6 @@ def filter_routes(file_path):
     sorted_selected_routes = sorted(selected_routes)
     return sorted_selected_routes
 
-# Example usage:
-# Replace 'your_dataset_file_path.csv' with the actual path to your dataset file
 file_path = 'dataset-1.csv'
 result = filter_routes(file_path)
 print(result)
@@ -98,8 +92,6 @@ def filter_routes(file_path):
     sorted_selected_routes = sorted(selected_routes)
     return sorted_selected_routes
 
-# Example usage:
-# Replace 'your_dataset_file_path.csv' with the actual path to your dataset file
 file_path = 'dataset-1.csv'
 result = filter_routes(file_path)
 print(result)
